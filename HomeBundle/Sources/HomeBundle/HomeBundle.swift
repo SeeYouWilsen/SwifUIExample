@@ -5,8 +5,8 @@ import Foundation
 private class BundleFinder {}
 
 public extension Foundation.Bundle {
-    static let common: Bundle = {
-        let bundleName = "CommonBundle"
+    static let home: Bundle = {
+        let bundleName = "HomeBundle"
         let bundleResourceURL = Bundle(for: BundleFinder.self).resourceURL
         let candidates = [
             Bundle.main.resourceURL,

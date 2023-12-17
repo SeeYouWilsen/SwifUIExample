@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,6 +11,10 @@
 		C87573262B2ECCA700BB2635 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87573252B2ECCA700BB2635 /* ContentView.swift */; };
 		C87573282B2ECCA800BB2635 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C87573272B2ECCA800BB2635 /* Assets.xcassets */; };
 		C875732B2B2ECCA800BB2635 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C875732A2B2ECCA800BB2635 /* Preview Assets.xcassets */; };
+		C8C2A69F2B2EF13600838068 /* CommonBundle in Frameworks */ = {isa = PBXBuildFile; productRef = C8C2A69E2B2EF13600838068 /* CommonBundle */; };
+		C8C2A6A22B2EF14100838068 /* HomeBundle in Frameworks */ = {isa = PBXBuildFile; productRef = C8C2A6A12B2EF14100838068 /* HomeBundle */; };
+		C8C2A6A72B2EFD2C00838068 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C8C2A6A62B2EFD2C00838068 /* Localizable.strings */; };
+		C8C2A6A92B2EFE8000838068 /* LocalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C2A6A82B2EFE8000838068 /* LocalApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,8 @@
 		C87573252B2ECCA700BB2635 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C87573272B2ECCA800BB2635 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C875732A2B2ECCA800BB2635 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C8C2A6A62B2EFD2C00838068 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		C8C2A6A82B2EFE8000838068 /* LocalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +32,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8C2A69F2B2EF13600838068 /* CommonBundle in Frameworks */,
+				C8C2A6A22B2EF14100838068 /* HomeBundle in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,8 +59,10 @@
 		C87573222B2ECCA700BB2635 /* SwiftUIExample */ = {
 			isa = PBXGroup;
 			children = (
+				C8C2A6A52B2EFD1500838068 /* en.Iproj */,
 				C87573232B2ECCA700BB2635 /* SwiftUIExampleApp.swift */,
 				C87573252B2ECCA700BB2635 /* ContentView.swift */,
+				C8C2A6A82B2EFE8000838068 /* LocalApp.swift */,
 				C87573272B2ECCA800BB2635 /* Assets.xcassets */,
 				C87573292B2ECCA800BB2635 /* Preview Content */,
 			);
@@ -65,6 +75,14 @@
 				C875732A2B2ECCA800BB2635 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C8C2A6A52B2EFD1500838068 /* en.Iproj */ = {
+			isa = PBXGroup;
+			children = (
+				C8C2A6A62B2EFD2C00838068 /* Localizable.strings */,
+			);
+			path = en.Iproj;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,6 +102,8 @@
 			);
 			name = SwiftUIExample;
 			packageProductDependencies = (
+				C8C2A69E2B2EF13600838068 /* CommonBundle */,
+				C8C2A6A12B2EF14100838068 /* HomeBundle */,
 			);
 			productName = SwiftUIExample;
 			productReference = C87573202B2ECCA700BB2635 /* SwiftUIExample.app */;
@@ -114,6 +134,8 @@
 			);
 			mainGroup = C87573172B2ECCA700BB2635;
 			packageReferences = (
+				C8C2A69D2B2EF13600838068 /* XCLocalSwiftPackageReference "CommonBundle" */,
+				C8C2A6A02B2EF14100838068 /* XCLocalSwiftPackageReference "HomeBundle" */,
 			);
 			productRefGroup = C87573212B2ECCA700BB2635 /* Products */;
 			projectDirPath = "";
@@ -130,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C875732B2B2ECCA800BB2635 /* Preview Assets.xcassets in Resources */,
+				C8C2A6A72B2EFD2C00838068 /* Localizable.strings in Resources */,
 				C87573282B2ECCA800BB2635 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8C2A6A92B2EFE8000838068 /* LocalApp.swift in Sources */,
 				C87573262B2ECCA700BB2635 /* ContentView.swift in Sources */,
 				C87573242B2ECCA700BB2635 /* SwiftUIExampleApp.swift in Sources */,
 			);
@@ -348,6 +372,28 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		C8C2A69D2B2EF13600838068 /* XCLocalSwiftPackageReference "CommonBundle" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = CommonBundle;
+		};
+		C8C2A6A02B2EF14100838068 /* XCLocalSwiftPackageReference "HomeBundle" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = HomeBundle;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C8C2A69E2B2EF13600838068 /* CommonBundle */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CommonBundle;
+		};
+		C8C2A6A12B2EF14100838068 /* HomeBundle */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = HomeBundle;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C87573182B2ECCA700BB2635 /* Project object */;
 }

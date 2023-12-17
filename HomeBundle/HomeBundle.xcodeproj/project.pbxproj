@@ -11,6 +11,8 @@
 		C8C2A68E2B2EF10200838068 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C2A68D2B2EF10200838068 /* ContentView.swift */; };
 		C8C2A6902B2EF10300838068 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8C2A68F2B2EF10300838068 /* Assets.xcassets */; };
 		C8C2A6932B2EF10300838068 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8C2A6922B2EF10300838068 /* Preview Assets.xcassets */; };
+		C8C2A69C2B2EF11D00838068 /* HomeBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C2A69B2B2EF11D00838068 /* HomeBundle.swift */; };
+		C8C2A6A42B2EF99A00838068 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8C2A6A32B2EF99A00838068 /* Color.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		C8C2A68D2B2EF10200838068 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C8C2A68F2B2EF10300838068 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8C2A6922B2EF10300838068 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C8C2A69B2B2EF11D00838068 /* HomeBundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeBundle.swift; sourceTree = "<group>"; };
+		C8C2A6A32B2EF99A00838068 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +39,7 @@
 		C8C2A67F2B2EF10200838068 = {
 			isa = PBXGroup;
 			children = (
+				C8C2A6992B2EF11C00838068 /* Sources */,
 				C8C2A68A2B2EF10200838068 /* HomeBundle */,
 				C8C2A6892B2EF10200838068 /* Products */,
 			);
@@ -65,6 +70,23 @@
 				C8C2A6922B2EF10300838068 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C8C2A6992B2EF11C00838068 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C8C2A69A2B2EF11C00838068 /* HomeBundle */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		C8C2A69A2B2EF11C00838068 /* HomeBundle */ = {
+			isa = PBXGroup;
+			children = (
+				C8C2A69B2B2EF11D00838068 /* HomeBundle.swift */,
+				C8C2A6A32B2EF99A00838068 /* Color.xcassets */,
+			);
+			path = HomeBundle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +149,7 @@
 			files = (
 				C8C2A6932B2EF10300838068 /* Preview Assets.xcassets in Resources */,
 				C8C2A6902B2EF10300838068 /* Assets.xcassets in Resources */,
+				C8C2A6A42B2EF99A00838068 /* Color.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +162,7 @@
 			files = (
 				C8C2A68E2B2EF10200838068 /* ContentView.swift in Sources */,
 				C8C2A68C2B2EF10200838068 /* HomeBundleApp.swift in Sources */,
+				C8C2A69C2B2EF11D00838068 /* HomeBundle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

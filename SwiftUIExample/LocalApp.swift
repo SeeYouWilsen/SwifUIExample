@@ -6,3 +6,9 @@
 //
 
 import Foundation
+class LocalApp{
+    func getLocal(){
+        let current = Locale.current
+        current.identifier
+    }
+}

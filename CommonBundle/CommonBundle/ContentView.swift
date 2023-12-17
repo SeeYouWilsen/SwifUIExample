@@ -6,13 +6,12 @@
 //
 
 import SwiftUI
+import CommonBundle
 
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
+            Image("image", bundle: .)
             Text("Hello, world!")
         }
         .padding()
